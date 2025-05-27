@@ -103,7 +103,7 @@ ul li.checked{
 }
 
 ul li.checked::before{
-    background-image: url(img/checkbox.png);
+    background-image: url(img/checked.png);
 }
 
 
