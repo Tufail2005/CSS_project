@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", "Inter", "Segoe UI", sans-serif;
+  background-image: linear-gradient(
+    to right,
+    #8a97ae,
+    #89a7bf,
+    #87b8cd,
+    #87c9d6,
+    #8cd9da
+  );
+  color: #333;
+}
+
+@media (max-width: 900px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.main {
+  display: inline-block;
+  display: flex;
+  /* justify-content: center; */
+  /* margin-top: 50px; */
+}
+
+.main_container {
+  width: 400px;
+  margin: 20px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-bottom: 16px;
+}
+
+.card {
+  background-color: #eeecec;
+  border: 1px solid #eae7e7;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #777;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.ri-menu-line {
+  padding: 5px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.add-btn {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    to right,
+    #1a1919,
+    #292727,
+    #393636,
+    #494646,
+    #5a5656
+  );
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 400px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  top: 200px;
+}
+
+.inputWrapper button {
+  background-color: rgb(45, 42, 43);
+  border-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.inputWrapper button:hover {
+  background-color: #c0b7b7;
+  box-shadow: 0 2px 10px rgba(27, 27, 27, 0.3);
+  color: #000000;
+}
+.inputWrapper input {
+  background-color: #eeecec;
+  align-items: center;
+  border-color: 1px solid black;
+  border-radius: 2px;
+  padding: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.drag-over {
+  background-color: #e0f7fa;
+}
+
+.cardFooter {
+  display: inline-flex;
+  margin: 5px;
+}
+
+select {
+  appearance: none;
+  color: rgb(117, 116, 116);
+  border-radius: 10px;
+  padding: 4px;
+  text-align: center;
+  margin: auto;
+  width: max-content;
+}
+
+.cardFooter p {
+  display: flex;
+  font-size: 12px;
+  color: #777;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.clockIcon {
+  margin: 5px;
+}
